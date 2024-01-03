@@ -11,7 +11,7 @@ float yearsOld;
 
 if (float.TryParse(dogsage, out yearsOld))
 {
-  // Konwersja się powiodła, możesz używać zmiennej liczba jako float
+  
 }
 else
 {
@@ -46,3 +46,6 @@ else
     Console.WriteLine("How much time did that other activity take?");
     var otherActivity = Console.ReadLine();
 }
+var statistics = dog.GetStatistics();
+
+Console.WriteLine("Your dog was active for:" + totalActiveTime + "minute today");
